@@ -1,0 +1,5 @@
+ingredient1,ingredient2,severity,message
+acetaminophen,aspirin,moderate,taking acetaminophen and aspirin together may increase risk of bleeding and stomach irritation.
+ibuprofen,aspirin,high,combining ibuprofen and aspirin significantly increases risk of gastrointestinal bleeding.
+acetaminophen,diphenhydramine,low,this combination is common in cold medicines. follow recommended dosages carefully.
+ibuprofen,diphenhydramine,moderate,may increase drowsiness. avoid driving or operating heavy machinery.
