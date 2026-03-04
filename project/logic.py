@@ -86,7 +86,7 @@ def analyze_prescription(med1_name, dose1, med2_name, dose2):
 
 def get_ai_explanation(status, report):
     # API key provided by user
-    api_key = "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"
+    api_key = ""
     
     if not api_key: 
         return "### ⚠️ System Note\nGROQ_API_KEY not found. Please set the API key to enable AI-powered clinical summaries."
@@ -118,3 +118,4 @@ def get_ai_explanation(status, report):
         return chat.choices[0].message.content
     except Exception as e:
         return f"### AI Analysis Unavailable\n\n**Technical Summary:**\n{report}\n\n*Error: {str(e)}*"
+
