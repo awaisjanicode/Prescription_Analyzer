@@ -71,14 +71,15 @@ Dangerous
 AI generates a professional clinical summary.
 
 📂 Project Structure
-prescription-analyzer/
-│
-├── app.py
-├── requirements.txt
-├── medicine_database.csv
-├── cleaned_dosage_rules.csv
-├── cleaned_interaction_rules.csv
-└── README.md
+Prescription_Analyzer/
+├── README.md
+└── project/
+    ├── app (1).py
+    ├── logic.py
+    ├── requirements.txt
+    ├── medicine_database.csv
+    ├── cleaned_dosage_rules.csv
+    └── cleaned_interaction_rules.csv
 ⚠️ Disclaimer
 
 This system is for educational and research purposes only.
@@ -86,3 +87,8 @@ It is not a substitute for professional medical advice.
 
 🌍 Live Demo
 https://huggingface.co/spaces/AwaisShinwari/prescription-analyzer
+
+
+## Local setup
+
+Install dependencies with `pip install -r project/requirements.txt`. The application entry point in this repository is `project/app (1).py`; the files described above are under `project/`.
